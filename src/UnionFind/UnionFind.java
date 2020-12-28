@@ -22,8 +22,8 @@ public class UnionFind {
      * 3. If root1 has higher rank, that means it's larger than the other set. Merge with this set
      * 4. Otherwise merge with the second set.
      * 
-     * @param node1
-     * @param node2 
+     * @param node1 - first node for the union operation
+     * @param node2 - second node for the union operation
      */
     public void union (Node node1, Node node2) {
         Node root1 = find (node1);
